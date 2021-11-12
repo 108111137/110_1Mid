@@ -9,7 +9,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div>  
+            <h1>維修項目單</h1>
+            <p><asp:Label ID="Label1" runat="server" Text="保單編號"></asp:Label><asp:DropDownList ID="DropDownList1" runat="server" DataValueField="手機"></asp:DropDownList></p>
+            <p><asp:Label ID="Label2" runat="server" Text="聯絡方式"></asp:Label></p>
+            <p><asp:Label ID="Label3" runat="server" Text="地址"></asp:Label></p>
+            <p><asp:Label ID="Label4" runat="server" Text="說明"></asp:Label></p>
+            <p><asp:Button ID="btn_Submit" runat="server" Text="送出" /></p>
         </div>
     </form>
 </body>
